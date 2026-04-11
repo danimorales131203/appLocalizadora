@@ -1,10 +1,46 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Blue Capybara Airlines</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hola UwU</h1>
+
+    <main class="contenedor-principal">
+        <section class="ticket">
+
+            <div class="lado-principal">
+                <div class="logo-contenedor">
+                    <img src="capybara_airlines.png" alt="Logo de Blue Capybara Airlines" class="logo-airline">
+                </div>
+
+                <h1>Blue Capybara Airlines</h1>
+                <p class="subtitulo">Pase de Abordaje</p>
+
+                <div class="campo">
+                    <label for="nombrePasajero">Ticket a nombre de:</label>
+                    <input type="text" id="nombrePasajero" placeholder="Escribe tu nombre aquí">
+                </div>
+
+                <div class="destino-seccion">
+                    <p class="destino-texto">Destino a:</p>
+                    <div class="linea-destino" id="lineaDestino">
+                        Esperando ubicación...
+                    </div>
+                </div>
+            </div>
+
+            <div class="lado-secundario">
+                <p class="detalle-vuelo">BCA</p>
+                <p class="detalle-vuelo">Gate 07</p>
+                <p class="detalle-vuelo">Clase Premium</p>
+            </div>
+
+        </section>
+    </main>
+
+    <script src="javascript.js"></script>
 </body>
 </html>
